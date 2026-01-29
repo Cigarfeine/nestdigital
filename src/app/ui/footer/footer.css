@@ -1,0 +1,37 @@
+.site-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  margin-top: auto;
+}
+
+.footer-nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-link {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #495057;
+  text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+  .site-footer .row {
+    text-align: center;
+  }
+  
+  .footer-nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-link {
+    margin: 0.25rem 0.5rem;
+  }
+}

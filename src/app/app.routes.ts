@@ -1,3 +1,32 @@
 import { Routes } from '@angular/router';
+import { Card } from './ui/card/card';
+import { About } from './ui/about/about';
+import { Link } from './ui/link/link';
+import { Action } from './ui/action/action';
+import { Another } from './ui/another/another';
+import { More } from './ui/more/more';
+import { Product } from './ui/product/product';
+import { Contact } from './ui/contact/contact';
+import { Privacy } from './ui/privacy/privacy';
+import { Services } from './ui/services/services';
+import { CyberSecurity } from './ui/cyber-security/cyber-security';
+import { CloudComputing } from './ui/cloud-computing/cloud-computing';
+import { AiMl } from './ui/ai-ml/ai-ml';
+import { SingleView } from './ui/single-view/single-view';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+	{ path: '', component: Card },
+	{ path: 'about', component: About },
+	{ path: 'link', component: Link },
+	{ path: 'action', component: Action },
+	{ path: 'another', component: Another },
+	{ path: 'more', component: More },
+	{ path: 'product', component: Product },
+	{ path: 'contact', component: Contact },
+	{ path: 'privacy', component: Privacy },
+	{ path: 'services', component: Services },
+	{ path: 'cyber-security', component: CyberSecurity },
+	{ path: 'cloud-computing', component: CloudComputing },
+	{ path: 'ai-ml', component: AiMl },
+	{ path: 'singleview-list/:titleid', component: SingleView },
+];
