@@ -5,7 +5,6 @@ import { Link } from './ui/link/link';
 import { Action } from './ui/action/action';
 import { Another } from './ui/another/another';
 import { More } from './ui/more/more';
-import { Product } from './ui/product/product';
 import { Contact } from './ui/contact/contact';
 import { Privacy } from './ui/privacy/privacy';
 import { Services } from './ui/services/services';
@@ -21,7 +20,6 @@ export const routes: Routes = [
 	{ path: 'action', component: Action },
 	{ path: 'another', component: Another },
 	{ path: 'more', component: More },
-	{ path: 'product', component: Product },
 	{ path: 'contact', component: Contact },
 	{ path: 'privacy', component: Privacy },
 	{ path: 'services', component: Services },
